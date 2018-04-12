@@ -27,11 +27,11 @@
             "type": "package",
             "package": {
                 "name": "crazymeeks/wp-capsule",
-                "version": "dev-master",
+                "version": "v1.0.0",
                 "source": {
                     "url": "git://github.com/crazymeeks/wp-capsule.git",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "v1.0.0"
                 },
                 "autoload": {
                     "psr-4": {
