@@ -1,0 +1,45 @@
+{
+    "name": "crazymeeks/wp-capsule",
+    "description": "Laravel Illuminate Capsule's Wrapper for WordPress",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Claud",
+            "email": "jeffclaud17@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "illuminate/database": "v5.6.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crazymeeks\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "crazymeeks/wp-capsule",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/crazymeeks/wp-capsule.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Crazymeeks\\": "src/"
+                    }
+                }
+            }
+            
+        }
+    ]
+}
