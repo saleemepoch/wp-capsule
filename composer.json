@@ -1,18 +1,18 @@
 {
-    "name": "crazymeeks/wp-capsule",
+    "name": "saleemepoch/wp-capsule",
     "description": "Laravel Illuminate Capsule's Wrapper for WordPress",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeff Claud",
-            "email": "jeffclaud17@gmail.com"
+            "name": "Saleem Beg",
+            "email": "saleem@web-epoch.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.0",
-        "illuminate/database": "v5.6.12"
+        "php": "^8.0",
+        "illuminate/database": "^9.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"
@@ -26,12 +26,12 @@
         {
             "type": "package",
             "package": {
-                "name": "crazymeeks/wp-capsule",
-                "version": "v1.0.0",
+                "name": "saleemepoch/wp-capsule",
+                "version": "v2.0.0",
                 "source": {
-                    "url": "git://github.com/crazymeeks/wp-capsule.git",
+                    "url": "git://github.com/saleemepoch/wp-capsule.git",
                     "type": "git",
-                    "reference": "v1.0.0"
+                    "reference": "v2.0.0"
                 },
                 "autoload": {
                     "psr-4": {
